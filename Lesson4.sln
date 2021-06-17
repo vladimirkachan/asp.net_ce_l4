@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Routing", "01_Routing\01_Routing.csproj", "{FEDECD5B-D17E-4F38-9953-3199AE62EBBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_RoutingTemplates", "02_RoutingTemplates\02_RoutingTemplates.csproj", "{D78D5D5A-DA3D-4232-88F3-63DC6297574E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_RoutingInfo", "03_RoutingInfo\03_RoutingInfo.csproj", "{81E8BE8F-EB74-46EB-A9A9-15FC9E5C3D01}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEDECD5B-D17E-4F38-9953-3199AE62EBBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDECD5B-D17E-4F38-9953-3199AE62EBBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDECD5B-D17E-4F38-9953-3199AE62EBBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDECD5B-D17E-4F38-9953-3199AE62EBBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D78D5D5A-DA3D-4232-88F3-63DC6297574E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D78D5D5A-DA3D-4232-88F3-63DC6297574E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D78D5D5A-DA3D-4232-88F3-63DC6297574E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D78D5D5A-DA3D-4232-88F3-63DC6297574E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81E8BE8F-EB74-46EB-A9A9-15FC9E5C3D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E8BE8F-EB74-46EB-A9A9-15FC9E5C3D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E8BE8F-EB74-46EB-A9A9-15FC9E5C3D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E8BE8F-EB74-46EB-A9A9-15FC9E5C3D01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
